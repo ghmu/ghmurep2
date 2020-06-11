@@ -21,15 +21,21 @@
           height:10px;
           width:10px;
           border-radius: 50%;
-          background-color:gray;
+          background-color:blue;
           left:0;
           top:0;
           padding:2px
           
                          
           }
-           input:checked + span{
+           input:checked + #sp1{
               background-color: red;
+          }
+           input:checked + #sp2{
+              background-color:green;
+          }
+           input:checked + #sp3{
+              background-color:yellow;
           }
           
           
@@ -41,22 +47,26 @@
             
             <label >Mango
             <input type="radio" name="fruits" class="inp">
-            <span></span>
+            <span id="sp1"></span>
             </label>
             <br>
             <label >Apple            
             <input type="radio" name="fruits" class="inp">
-            <span></span>
+            <span id="sp2"></span>
             </label>
             <br>
             <label >Grapes
             <input type="radio" name="fruits" class="inp">
-            <span></span>
+            <span id="sp3"></span>
             </label>
 
             
         </main>
-        
+        <script>
+            let x= document.querySelectorAll("label")
+
+
+        </script>
         
        </body>
 </html>
