@@ -1,0 +1,19 @@
+body{
+    background-color:rgb(178, 188, 231);
+}
+.main{
+    background-color: rgb(150, 164, 190);
+    color:black;
+    border:2px solid rgb(45, 45, 48);
+    padding:2px 2px;
+    margin:3px 3px;
+}
+.select{
+    
+    background-color: rgb(155, 172, 164);
+}
+.selectdiv{
+    padding-left:5px ;
+    display: flex;
+    float: left;
+}
